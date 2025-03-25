@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: 'mysql'
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    environment:
+      - 'MYSQL_DATABASE=db_challenge'
+      - 'MYSQL_PASSWORD=Pudim@123'
+      - 'MYSQL_ROOT_PASSWORD=Pudim@123'
+      - 'MYSQL_RANDOM_ROOT_PASSWORD'
