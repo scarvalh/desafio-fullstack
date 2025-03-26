@@ -61,8 +61,6 @@ Este projeto foi desenvolvido utilizando **Angular** no frontend e **Java Spring
 | id_empresa    | INT (Foreign Key - Empresa)    |
 | id_fornecedor | INT (Foreign Key - Fornecedor) |
 
-## Regras de Negócio
-
 - Um **fornecedor** pode ser **pessoa física** ou **pessoa jurídica**.
 - A identificação do tipo de fornecedor ocorre pelo campo **tipo** e pelas chaves estrangeiras associadas.
 - Um **fornecedor** possui **apenas um dos campos preenchidos** (id_pessoa_física ou id_pessoa_jurídica).
