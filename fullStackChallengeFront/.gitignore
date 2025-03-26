@@ -1,0 +1,22 @@
+# Node
+/node_modules
+
+/dist/
+build/
+out/
+
+
+.vscode/
+.idea/
+*.iml
+*.log
+logs/
+.env
+
+
+Thumbs.db        # Windows
+
+*.sqlite
+db/
+
+coverage/

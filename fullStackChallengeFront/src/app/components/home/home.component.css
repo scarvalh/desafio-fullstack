@@ -1,0 +1,27 @@
+#header{
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.filtros-container {
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.filtros-form {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.filtros-form mat-form-field {
+  flex: 1;
+  min-width: 150px;
+}
+
+.fornecedor-table {
+  margin-top: 16px;
+}

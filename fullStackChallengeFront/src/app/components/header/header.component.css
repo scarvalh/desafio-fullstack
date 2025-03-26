@@ -1,0 +1,9 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.tool-bar{
+  background-color: #E0B0FF;
+  color: black;
+  font-weight: bolder;
+}

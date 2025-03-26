@@ -1,0 +1,18 @@
+<header>
+  <mat-toolbar class="tool-bar">
+    <div class="titlte">
+      <h1 (click)="onHomeClick()">Accenture FullStack Challenge</h1>
+    </div>
+    <span class="spacer"></span>
+    <button mat-button class="home" (click)="onHomeClick()">
+      Home
+    </button>
+    <button mat-button class="cadastro-empresa"  (click)="onCadastroEmpresaClick()">
+      Cadastro Empresas
+    </button>
+    <button mat-button class="cadastro-fornecedor" (click)="onCadastroFornecedorClick()">
+      Cadastro Fornecedor
+    </button>
+  </mat-toolbar>
+</header>
+<router-outlet></router-outlet>

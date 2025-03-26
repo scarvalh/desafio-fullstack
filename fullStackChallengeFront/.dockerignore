@@ -1,0 +1,32 @@
+# Dependências
+node_modules
+npm-debug.log
+
+# Sistema
+.git
+.gitignore
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos de build
+dist
+tmp
+out-tsc
+
+# Testes
+coverage
+*.spec.ts
+*.e2e-spec.ts
+
+# Outros
+.DS_Store
+Thumbs.db 
