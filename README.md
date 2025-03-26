@@ -49,7 +49,7 @@ Este projeto foi desenvolvido utilizando **Angular** no frontend e **Java Spring
 | id                   | INT (Primary Key)                   |
 | email                | VARCHAR                             |
 | cep                  | VARCHAR                             |
-| tipo                 | ENUM ('Física', 'Jurídica')         |
+| tipo                 | ENUM ('PF', 'PJ')         |
 | id_pessoa_física   | INT (Foreign Key - Pessoa Física)   |
 | id_pessoa_jurídica | INT (Foreign Key - Pessoa Jurídica) |
 
